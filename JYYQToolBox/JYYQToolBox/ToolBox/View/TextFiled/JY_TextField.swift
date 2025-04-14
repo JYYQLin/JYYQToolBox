@@ -9,7 +9,7 @@ import UIKit
 
 open class JY_TextField: UITextField {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }

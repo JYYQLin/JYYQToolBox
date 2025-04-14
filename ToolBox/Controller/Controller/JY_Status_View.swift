@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JY_Status_View: UIView {
+class JY_Status_View: JY_View {
     
     var yq_retry_request_clickBlock: (() -> Void)?
     
@@ -21,8 +21,6 @@ class JY_Status_View: UIView {
     private lazy var yq_statusFont: UIFont? = nil
 
     private lazy var yq_icon_imageView: UIImageView = UIImageView()
-    
-    private lazy var yq_scale: CGFloat = 1.0
 
     private lazy var yq_status_label: UILabel = {
         let view = UILabel()
@@ -36,17 +34,15 @@ class JY_Status_View: UIView {
         button.addTarget(self, action: #selector(yq_retry_request_click), for: .touchUpInside)
         return button
     }()
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+}
+
+extension JY_Status_View {
+    override func yq_add_subviews() {
+        super.yq_add_subviews()
         
         addSubview(yq_retry_button)
         addSubview(yq_icon_imageView)
         addSubview(yq_status_label)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }
 
@@ -144,13 +140,6 @@ extension JY_Status_View {
             
             return CGRect(x: x, y: yq_icon_imageView.frame.minY, width: width, height: height)
         }()
-    }
-}
-
-extension JY_Status_View {
-    func yq_set(scale: CGFloat) {
-        yq_scale = scale
-        layoutSubviews()
     }
 }
 

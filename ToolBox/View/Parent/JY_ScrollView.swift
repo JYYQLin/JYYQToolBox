@@ -1,5 +1,5 @@
 //
-//  JYImageView.swift
+//  JY_ScrollView.swift
 //  Scorpio
 //
 //  Created by Scorpio on 2025/4/9.
@@ -7,25 +7,19 @@
 
 import UIKit
 
-
-open class JYImageView: UIImageView {
+open class JY_ScrollView: UIScrollView {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }
     }
     
-    public lazy var pio_imageName: String = "" {
-        didSet {
-            if pio_imageName.count > 0 {
-                image = UIImage(named: pio_imageName)
-            }
-        }
-    }
-    
     public override init(frame: CGRect = .zero) {
         super.init(frame: frame)
+        
+        contentInsetAdjustmentBehavior = .never
+        automaticallyAdjustsScrollIndicatorInsets = false
         
         yq_add_subviews()
     }
@@ -35,7 +29,6 @@ open class JYImageView: UIImageView {
     }
 }
 
-extension JYImageView {
-    
+extension JY_ScrollView {
     @objc dynamic open func yq_add_subviews() { }
 }

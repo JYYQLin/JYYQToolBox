@@ -1,5 +1,5 @@
 //
-//  JYLabel.swift
+//  JY_ImageView.swift
 //  Scorpio
 //
 //  Created by Scorpio on 2025/4/9.
@@ -7,11 +7,20 @@
 
 import UIKit
 
-open class JYLabel: UILabel {
+
+open class JY_ImageView: UIImageView {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
+        }
+    }
+    
+    public lazy var yq_imageName: String = "" {
+        didSet {
+            if yq_imageName.count > 0 {
+                image = UIImage(named: yq_imageName)
+            }
         }
     }
     
@@ -26,6 +35,7 @@ open class JYLabel: UILabel {
     }
 }
 
-extension JYLabel {
+extension JY_ImageView {
+    
     @objc dynamic open func yq_add_subviews() { }
 }

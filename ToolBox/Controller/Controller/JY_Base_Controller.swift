@@ -112,10 +112,10 @@ extension JY_Base_Controller {
         yq_content_view.frame = view.bounds
         
         yq_request_loading_view.frame = view.bounds
-        yq_request_loading_view.yq_set(scale: scale)
+        yq_request_loading_view.yq_scale = scale
         
         yq_status_view.frame = view.bounds
-        yq_status_view.yq_set(scale: scale)
+        yq_status_view.yq_scale = scale
         
         yq_background_content_view.backgroundColor = JY_Base_Controller.yq_background_color()
         

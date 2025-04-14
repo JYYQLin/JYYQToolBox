@@ -1,5 +1,5 @@
 //
-//  JYView.swift
+//  JY_View.swift
 //  Scorpio
 //
 //  Created by Scorpio on 2025/4/9.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-open class JYView: UIView {
+open class JY_View: UIView {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }
@@ -26,6 +26,6 @@ open class JYView: UIView {
     }
 }
 
-extension JYView {
+extension JY_View {
     @objc dynamic open func yq_add_subviews() { }
 }

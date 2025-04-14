@@ -1,5 +1,5 @@
 //
-//  JYScrollView.swift
+//  JY_Label.swift
 //  Scorpio
 //
 //  Created by Scorpio on 2025/4/9.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-open class JYScrollView: UIScrollView {
+open class JY_Label: UILabel {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }
@@ -26,6 +26,6 @@ open class JYScrollView: UIScrollView {
     }
 }
 
-extension JYScrollView {
+extension JY_Label {
     @objc dynamic open func yq_add_subviews() { }
 }

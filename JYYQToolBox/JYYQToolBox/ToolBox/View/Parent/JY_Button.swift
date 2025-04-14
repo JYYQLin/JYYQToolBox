@@ -1,5 +1,5 @@
 //
-//  JYButton.swift
+//  JY_Button.swift
 //  Scorpio
 //
 //  Created by Scorpio on 2025/4/9.
@@ -8,9 +8,9 @@
 import UIKit
 
 
-open class JYButton: UIButton {
+open class JY_Button: UIButton {
     
-    public lazy var pio_scale: CGFloat = 1 {
+    public lazy var yq_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }
@@ -27,6 +27,6 @@ open class JYButton: UIButton {
     }
 }
 
-extension JYButton {
+extension JY_Button {
     @objc dynamic open func yq_add_subviews() { }
 }
