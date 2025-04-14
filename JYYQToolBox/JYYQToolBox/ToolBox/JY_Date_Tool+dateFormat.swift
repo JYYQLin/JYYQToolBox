@@ -9,7 +9,7 @@ import UIKit
 
 //  MARK: 格式化时间 - 将时间戳转为对应MMDD格式
 extension JY_Date_Tool {
-    /** 
+    /**
      格式化时间
         将时间戳转为对应MMDD格式
      */
@@ -57,7 +57,7 @@ extension JY_Date_Tool {
      格式化时间
         特别处理成刚刚 / 几分钟前这类格式
      */
-    func yq_dateFormat_special_handling(time timestamp: TimeInterval) -> String {
+    public static func yq_dateFormat_special_handling(time timestamp: TimeInterval) -> String {
         let currentDate = Date()
         let targetDate = Date(timeIntervalSince1970: timestamp)
         let timeDifference = currentDate.timeIntervalSince(targetDate)

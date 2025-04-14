@@ -36,7 +36,7 @@ extension Int {
      */
     public func yq_distance_from_now() -> (days: Int, hours: Int, minutes: Int, seconds: Int) {
      
-        return JY_Date_Tool.yq_time_interval_since_now(to: TimeInterval(self))
+        return JY_Date_Tool.yq_distance_from_now(to: TimeInterval(self))
     }
 }
 
@@ -48,6 +48,6 @@ extension TimeInterval {
      */
     public func yq_distance_from_now() -> (days: Int, hours: Int, minutes: Int, seconds: Int) {
      
-        return JY_Date_Tool.yq_time_interval_since_now(to: self)
+        return JY_Date_Tool.yq_distance_from_now(to: self)
     }
 }
