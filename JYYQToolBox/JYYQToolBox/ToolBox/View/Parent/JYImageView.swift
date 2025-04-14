@@ -8,22 +8,12 @@
 import UIKit
 
 
-public class JYImageView: UIImageView {
+open class JYImageView: UIImageView {
     
     public lazy var pio_scale: CGFloat = 1 {
         didSet {
             layoutSubviews()
         }
-    }
-    
-    override init(frame: CGRect = .zero) {
-        super.init(frame: frame)
-        
-        yq_add_subviews()
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
     public lazy var pio_imageName: String = "" {
@@ -32,6 +22,16 @@ public class JYImageView: UIImageView {
                 image = UIImage(named: pio_imageName)
             }
         }
+    }
+    
+    public override init(frame: CGRect = .zero) {
+        super.init(frame: frame)
+        
+        yq_add_subviews()
+    }
+    
+    public required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
 

@@ -7,21 +7,34 @@
 
 import UIKit
 
-public class JY_Base_Loading_View: UIView {
-
-    private lazy var yq_scale: CGFloat = 1.0
+open class JY_Base_Loading_View: UIView {
+    
+    public lazy var yq_scale: CGFloat = 1 {
+        didSet {
+            layoutSubviews()
+        }
+    }
     
     private lazy var yq_loading_view: UIActivityIndicatorView = UIActivityIndicatorView(style: .large)
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect = .zero) {
         super.init(frame: frame)
         
-        addSubview(yq_loading_view)
+        yq_add_subviews()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+}
+
+extension JY_Base_Loading_View {
+    @objc dynamic open func yq_add_subviews() { 
+        addSubview(yq_loading_view)
+    }
+}
+
+extension JY_Base_Loading_View {
     
     public override func layoutSubviews() {
         super.layoutSubviews()
@@ -36,11 +49,6 @@ public class JY_Base_Loading_View: UIView {
         yq_loading_view.transform = CGAffineTransform(scaleX: 1.5 * yq_scale, y: 1.5 * yq_scale)
         
         yq_loading_view.color = UIColor.yq_controller_loading_color()
-    }
-    
-    public func yq_set(scale: CGFloat) {
-        yq_scale = scale
-        layoutSubviews()
     }
     
     public func yq_show_loading() {

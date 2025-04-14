@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class JYScrollView: UIScrollView {
+open class JYScrollView: UIScrollView {
     
     public lazy var pio_scale: CGFloat = 1 {
         didSet {
@@ -15,16 +15,13 @@ public class JYScrollView: UIScrollView {
         }
     }
     
-    override init(frame: CGRect = .zero) {
+    public override init(frame: CGRect = .zero) {
         super.init(frame: frame)
-        
-        contentInsetAdjustmentBehavior = .never
-        automaticallyAdjustsScrollIndicatorInsets = false
         
         yq_add_subviews()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
