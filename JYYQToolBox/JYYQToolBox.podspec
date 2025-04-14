@@ -3,13 +3,13 @@ Pod::Spec.new do |spec|
   	spec.version      = "1.0.0"
   	spec.summary      = "本人封装的开发工具集合"
 
-  	spec.homepage     = "https://github.com/JYYQLin/JYYQTools"
+  	spec.homepage     = "https://github.com/JYYQLin/JYYQToolBox"
 
   	spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   	spec.author       = { "JYYQLin" => "No mailBox" }
 
-  	spec.source       = { :git => "https://github.com/JYYQLin/JYYQTools.git", :tag => spec.version }
+  	spec.source       = { :git => "https://github.com/JYYQLin/JYYQToolBox.git", :tag => spec.version }
   	spec.source_files  = "Tools/**/*.{h,m,swift}"
 
 	spec.swift_versions = ['5.0', '5.1', '5.2']
