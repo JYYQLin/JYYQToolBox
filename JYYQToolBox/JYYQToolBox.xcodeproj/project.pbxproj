@@ -53,6 +53,9 @@
 		A1779F702DACAA2E006BCC9E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1779F6F2DACAA2E006BCC9E /* Base */; };
 		A1779F722DACAA2F006BCC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1779F712DACAA2F006BCC9E /* Assets.xcassets */; };
 		A1779F752DACAA2F006BCC9E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1779F742DACAA2F006BCC9E /* Base */; };
+		A1F0BF7B2DAE4469007984CB /* JY_Refresh_BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF772DAE4469007984CB /* JY_Refresh_BaseView.swift */; };
+		A1F0BF7C2DAE4469007984CB /* JY_Refresh_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF782DAE4469007984CB /* JY_Refresh_CollectionView.swift */; };
+		A1F0BF7D2DAE4469007984CB /* JY_Refresh_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF792DAE4469007984CB /* JY_Refresh_TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +107,9 @@
 		A1779F712DACAA2F006BCC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1779F742DACAA2F006BCC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1779F762DACAA2F006BCC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F0BF772DAE4469007984CB /* JY_Refresh_BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_BaseView.swift; sourceTree = "<group>"; };
+		A1F0BF782DAE4469007984CB /* JY_Refresh_CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_CollectionView.swift; sourceTree = "<group>"; };
+		A1F0BF792DAE4469007984CB /* JY_Refresh_TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +252,7 @@
 		A1593C212DAE2EB400C04D37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1F0BF7A2DAE4469007984CB /* RefreshView */,
 				A1593C1D2DAE2EB400C04D37 /* Parent */,
 				A1593C202DAE2EB400C04D37 /* TextFiled */,
 			);
@@ -298,6 +305,16 @@
 				A1779F762DACAA2F006BCC9E /* Info.plist */,
 			);
 			path = JYYQToolBox;
+			sourceTree = "<group>";
+		};
+		A1F0BF7A2DAE4469007984CB /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				A1F0BF772DAE4469007984CB /* JY_Refresh_BaseView.swift */,
+				A1F0BF782DAE4469007984CB /* JY_Refresh_CollectionView.swift */,
+				A1F0BF792DAE4469007984CB /* JY_Refresh_TableView.swift */,
+			);
+			path = RefreshView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,10 +397,12 @@
 				A1593C2C2DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift in Sources */,
 				A1593C2A2DAE2EB400C04D37 /* JY_Date_Tool.swift in Sources */,
 				A1593C392DAE2EB400C04D37 /* JY_Enum_Language.swift in Sources */,
+				A1F0BF7B2DAE4469007984CB /* JY_Refresh_BaseView.swift in Sources */,
 				A1593C402DAE2EB400C04D37 /* JY_Device.swift in Sources */,
 				A1593C342DAE2EB400C04D37 /* JY_Extension_UIImage.swift in Sources */,
 				A1593C372DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift in Sources */,
 				A1593C252DAE2EB400C04D37 /* JY_Controller_Config.swift in Sources */,
+				A1F0BF7C2DAE4469007984CB /* JY_Refresh_CollectionView.swift in Sources */,
 				A1593C302DAE2EB400C04D37 /* JY_Extension_String.swift in Sources */,
 				A1593C332DAE2EB400C04D37 /* JY_Extension_UIFont.swift in Sources */,
 				A1593C282DAE2EB400C04D37 /* JY_Controller_Manager.swift in Sources */,
@@ -409,6 +428,7 @@
 				A1779F692DACAA2E006BCC9E /* AppDelegate.swift in Sources */,
 				A1593C472DAE2EB400C04D37 /* JY_ScrollView.swift in Sources */,
 				A1593C2F2DAE2EB400C04D37 /* JY_Extension_Int.swift in Sources */,
+				A1F0BF7D2DAE4469007984CB /* JY_Refresh_TableView.swift in Sources */,
 				A1593C442DAE2EB400C04D37 /* JY_Button.swift in Sources */,
 				A1593C492DAE2EB400C04D37 /* JY_TextField.swift in Sources */,
 				A1779F6B2DACAA2E006BCC9E /* SceneDelegate.swift in Sources */,

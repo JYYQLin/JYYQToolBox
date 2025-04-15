@@ -24,6 +24,7 @@ Pod::Spec.new do |spec|
   	spec.source       = { :git => "https://github.com/JYYQLin/JYYQToolBox.git", :tag => spec.version }
   	spec.source_files  = "ToolBox/**/*.{h,m,swift}"
 
+  	spec.dependency 'MJRefresh',   '~> 3.7.9'
 
 end
 
