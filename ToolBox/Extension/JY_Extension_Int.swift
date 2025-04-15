@@ -46,7 +46,7 @@ extension Int {
 }
 
 extension Double {
-    func yq_format(f: String) -> String {
+    public func yq_format(f: String) -> String {
          return String(format: "%\(f)f", self)
      }
 }
