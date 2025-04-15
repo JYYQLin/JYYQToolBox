@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   	spec.source_files  = "ToolBox/**/*.{h,m,swift}"
 
   	spec.dependency 'MJRefresh',   '~> 3.7.9'
+	spec.dependency 'NotificationBannerSwift'
 
 end
 
