@@ -8,6 +8,26 @@
 import UIKit
 
 extension Int {
+    func pio_power(_ exponent: Int) -> Int {
+        var result = 1
+        for _ in 0..<exponent {
+            result *= self
+        }
+        return result
+    }
+}
+
+extension Double {
+    func pio_power(_ exponent: Int) -> Double {
+        var result = 1.0
+        for _ in 0..<exponent {
+            result *= self
+        }
+        return result
+    }
+}
+
+extension Int {
     public func yq_to_unitString() -> String {
         let numABS = abs(self)
         let sign = (self < 0) ? "-" : ""
