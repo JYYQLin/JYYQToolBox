@@ -12,7 +12,7 @@ public class JY_Date_Tool {
 }
 
 extension Int {
-    public func jy_seconds_to_minutes_and_second() -> String {
+    public func yq_seconds_to_minutes_and_second() -> String {
         let hours = self / 3600
           let minutes = (self % 3600) / 60
           let remainingSeconds = self % 60
