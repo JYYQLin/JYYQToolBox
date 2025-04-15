@@ -1,6 +1,6 @@
 //
 //  JY_Extension_UIWindow.swift
-//  JYTools
+//  JYYQToolBox
 //
 //  Created by JYYQLin on 2024/10/13.
 //

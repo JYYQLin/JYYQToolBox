@@ -53,6 +53,8 @@
 		A1779F702DACAA2E006BCC9E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1779F6F2DACAA2E006BCC9E /* Base */; };
 		A1779F722DACAA2F006BCC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1779F712DACAA2F006BCC9E /* Assets.xcassets */; };
 		A1779F752DACAA2F006BCC9E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1779F742DACAA2F006BCC9E /* Base */; };
+		A17BCC0D2DAE538B00054485 /* JY_MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17BCC0A2DAE538B00054485 /* JY_MBProgressHUD.swift */; };
+		A17BCC0E2DAE538B00054485 /* JY_NotificationBannerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17BCC0B2DAE538B00054485 /* JY_NotificationBannerSwift.swift */; };
 		A1F0BF7B2DAE4469007984CB /* JY_Refresh_BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF772DAE4469007984CB /* JY_Refresh_BaseView.swift */; };
 		A1F0BF7C2DAE4469007984CB /* JY_Refresh_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF782DAE4469007984CB /* JY_Refresh_CollectionView.swift */; };
 		A1F0BF7D2DAE4469007984CB /* JY_Refresh_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0BF792DAE4469007984CB /* JY_Refresh_TableView.swift */; };
@@ -107,6 +109,8 @@
 		A1779F712DACAA2F006BCC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1779F742DACAA2F006BCC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1779F762DACAA2F006BCC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17BCC0A2DAE538B00054485 /* JY_MBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_MBProgressHUD.swift; sourceTree = "<group>"; };
+		A17BCC0B2DAE538B00054485 /* JY_NotificationBannerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_NotificationBannerSwift.swift; sourceTree = "<group>"; };
 		A1F0BF772DAE4469007984CB /* JY_Refresh_BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_BaseView.swift; sourceTree = "<group>"; };
 		A1F0BF782DAE4469007984CB /* JY_Refresh_CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_CollectionView.swift; sourceTree = "<group>"; };
 		A1F0BF792DAE4469007984CB /* JY_Refresh_TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_TableView.swift; sourceTree = "<group>"; };
@@ -262,6 +266,7 @@
 		A1593C222DAE2EB400C04D37 /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				A17BCC0C2DAE538B00054485 /* HUD */,
 				A1593BF62DAE2EB400C04D37 /* Controller */,
 				A1593BFA2DAE2EB400C04D37 /* Date */,
 				A1593C042DAE2EB400C04D37 /* Extension */,
@@ -305,6 +310,15 @@
 				A1779F762DACAA2F006BCC9E /* Info.plist */,
 			);
 			path = JYYQToolBox;
+			sourceTree = "<group>";
+		};
+		A17BCC0C2DAE538B00054485 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				A17BCC0A2DAE538B00054485 /* JY_MBProgressHUD.swift */,
+				A17BCC0B2DAE538B00054485 /* JY_NotificationBannerSwift.swift */,
+			);
+			path = HUD;
 			sourceTree = "<group>";
 		};
 		A1F0BF7A2DAE4469007984CB /* RefreshView */ = {
@@ -399,6 +413,7 @@
 				A1593C392DAE2EB400C04D37 /* JY_Enum_Language.swift in Sources */,
 				A1F0BF7B2DAE4469007984CB /* JY_Refresh_BaseView.swift in Sources */,
 				A1593C402DAE2EB400C04D37 /* JY_Device.swift in Sources */,
+				A17BCC0D2DAE538B00054485 /* JY_MBProgressHUD.swift in Sources */,
 				A1593C342DAE2EB400C04D37 /* JY_Extension_UIImage.swift in Sources */,
 				A1593C372DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift in Sources */,
 				A1593C252DAE2EB400C04D37 /* JY_Controller_Config.swift in Sources */,
@@ -433,6 +448,7 @@
 				A1593C492DAE2EB400C04D37 /* JY_TextField.swift in Sources */,
 				A1779F6B2DACAA2E006BCC9E /* SceneDelegate.swift in Sources */,
 				A1593C232DAE2EB400C04D37 /* JY_Base_Controller.swift in Sources */,
+				A17BCC0E2DAE538B00054485 /* JY_NotificationBannerSwift.swift in Sources */,
 				A1593C272DAE2EB400C04D37 /* JY_Status_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

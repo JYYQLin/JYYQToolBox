@@ -1,6 +1,6 @@
 //
 //  JY_Controller_Config.swift
-//  JYTools
+//  JYYQToolBox
 //
 //  Created by JYYQLin on 2024/12/30.
 //

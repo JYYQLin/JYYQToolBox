@@ -1,8 +1,8 @@
 //
 //  JY_Button.swift
-//  Scorpio
+//  JYYQToolBox
 //
-//  Created by Scorpio on 2025/4/9.
+//  Created by JYYQLin on 2025/4/9.
 //
 
 import UIKit
