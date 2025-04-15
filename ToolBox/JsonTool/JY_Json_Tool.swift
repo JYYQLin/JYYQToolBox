@@ -46,3 +46,31 @@ extension JY_Json_Tool {
         return nil
     }
 }
+
+extension JY_Json_Tool {
+    /// json字符串转字典
+    /// - Parameter jsonStirng: json字符串
+    /// - Returns: 字典(类型[String : Any])
+    public static func yq_JSONString_to_dictionary(from jsonStirng: String) -> [String : Any]? {
+        guard let data = yq_JSONString_to_Objc(from: jsonStirng) else {
+            return nil
+        }
+        return data as? [String : Any]
+    }
+}
+
+//  MARK: json字符串转对象
+extension JY_Json_Tool {
+    /// json字符串转对象
+    /// - Parameter jsonStirng: json字符串
+    /// - Returns: 对象(类型Any)
+    public static func yq_JSONString_to_Objc(from jsonStirng: String) -> Any? {
+        guard let data = jsonStirng.data(using: .utf8) else {
+            return nil
+        }
+        
+        let obj = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers)
+        
+        return obj
+    }
+}
