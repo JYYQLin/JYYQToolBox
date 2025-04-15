@@ -44,7 +44,7 @@ open class JY_Base_CollectionViewCell: UICollectionViewCell {
         }
     }
     
-    override init(frame: CGRect = .zero) {
+    public override init(frame: CGRect = .zero) {
         super.init(frame: frame)
         
         yq_add_subviews()
@@ -73,7 +73,7 @@ open class JY_Base_CollectionReusableView: UICollectionReusableView {
         }
     }
     
-    override init(frame: CGRect = .zero) {
+    public override init(frame: CGRect = .zero) {
         super.init(frame: frame)
         
         yq_add_subviews()
