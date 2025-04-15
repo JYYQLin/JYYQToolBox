@@ -47,7 +47,7 @@ extension UIDevice {
         
     }
     
-    static func yq_modelName() -> String {
+    public static func yq_modelName() -> String {
         var systemInfo = utsname()
         uname(&systemInfo)
         let machineMirror = Mirror(reflecting: systemInfo.machine)
