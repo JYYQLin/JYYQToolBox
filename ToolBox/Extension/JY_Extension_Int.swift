@@ -8,7 +8,7 @@
 import UIKit
 
 extension Int {
-    func yq_power(_ exponent: Int) -> Int {
+    public func yq_power(_ exponent: Int) -> Int {
         var result = 1
         for _ in 0..<exponent {
             result *= self
@@ -18,7 +18,7 @@ extension Int {
 }
 
 extension Double {
-    func yq_power(_ exponent: Int) -> Double {
+    public func yq_power(_ exponent: Int) -> Double {
         var result = 1.0
         for _ in 0..<exponent {
             result *= self
