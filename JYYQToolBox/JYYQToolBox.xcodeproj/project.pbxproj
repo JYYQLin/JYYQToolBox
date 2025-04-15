@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A128042E2DACD76200813F8D /* JY_Date_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804292DACD76200813F8D /* JY_Date_Tool.swift */; };
-		A128042F2DACD76200813F8D /* JY_Date_Tool+dateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128042A2DACD76200813F8D /* JY_Date_Tool+dateFormat.swift */; };
-		A12804302DACD76200813F8D /* JY_Date_Tool+Distance_Now.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128042B2DACD76200813F8D /* JY_Date_Tool+Distance_Now.swift */; };
-		A12804332DACD77700813F8D /* JY_Json_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804322DACD77700813F8D /* JY_Json_Tool.swift */; };
-		A12804362DACDB5300813F8D /* JY_File_Manager+Image_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804352DACDB5300813F8D /* JY_File_Manager+Image_Save.swift */; };
-		A12804382DACDB6100813F8D /* JY_File_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804372DACDB6100813F8D /* JY_File_Manager.swift */; };
-		A128043C2DACE18D00813F8D /* JY_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128043B2DACE18D00813F8D /* JY_TextField.swift */; };
-		A12804422DACE21000813F8D /* JY_Extension_UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128043E2DACE21000813F8D /* JY_Extension_UIScreen.swift */; };
-		A12804432DACE21000813F8D /* JY_Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128043F2DACE21000813F8D /* JY_Device.swift */; };
-		A12804442DACE21000813F8D /* Screen 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A12804402DACE21000813F8D /* Screen 说明.md */; };
-		A12804452DACE21000813F8D /* JY_Extension_UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804412DACE21000813F8D /* JY_Extension_UIDevice.swift */; };
-		A12804472DACE21700813F8D /* TextField 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A12804462DACE21700813F8D /* TextField 说明.md */; };
-		A128044C2DACE55C00813F8D /* JY_Sandbox_Tool_Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804492DACE55C00813F8D /* JY_Sandbox_Tool_Cache.swift */; };
-		A128044D2DACE55C00813F8D /* JY_Sandbox_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128044A2DACE55C00813F8D /* JY_Sandbox_Tool.swift */; };
-		A128044E2DACE55C00813F8D /* JY_Sandbox_Tool_Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128044B2DACE55C00813F8D /* JY_Sandbox_Tool_Path.swift */; };
-		A12804542DACE57200813F8D /* JY_Enum_Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128044F2DACE57200813F8D /* JY_Enum_Language.swift */; };
-		A12804552DACE57200813F8D /* JY_Localization_Tool_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804502DACE57200813F8D /* JY_Localization_Tool_Extension.swift */; };
-		A12804562DACE57200813F8D /* JY_Localization_Tool.md in Resources */ = {isa = PBXBuildFile; fileRef = A12804512DACE57200813F8D /* JY_Localization_Tool.md */; };
-		A12804572DACE57200813F8D /* JY_Localization_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804522DACE57200813F8D /* JY_Localization_Tool.swift */; };
-		A12804612DACE58A00813F8D /* Extension 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A12804582DACE58A00813F8D /* Extension 说明.md */; };
-		A12804622DACE58A00813F8D /* JY_Extension_CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804592DACE58A00813F8D /* JY_Extension_CommonCrypto.swift */; };
-		A12804632DACE58A00813F8D /* JY_Extension_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045A2DACE58A00813F8D /* JY_Extension_Int.swift */; };
-		A12804642DACE58A00813F8D /* JY_Extension_UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045B2DACE58A00813F8D /* JY_Extension_UIApplication.swift */; };
-		A12804652DACE58A00813F8D /* JY_Extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045C2DACE58A00813F8D /* JY_Extension_UIColor.swift */; };
-		A12804662DACE58A00813F8D /* JY_Extension_UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045D2DACE58A00813F8D /* JY_Extension_UIFont.swift */; };
-		A12804672DACE58A00813F8D /* JY_Extension_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045E2DACE58A00813F8D /* JY_Extension_UIImage.swift */; };
-		A12804682DACE58A00813F8D /* JY_Extension_UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128045F2DACE58A00813F8D /* JY_Extension_UIWindow.swift */; };
-		A12804732DACE59000813F8D /* JY_Base_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804692DACE59000813F8D /* JY_Base_Controller.swift */; };
-		A12804742DACE59000813F8D /* JY_Base_Loading_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128046A2DACE59000813F8D /* JY_Base_Loading_View.swift */; };
-		A12804752DACE59000813F8D /* JY_Controller_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128046B2DACE59000813F8D /* JY_Controller_Config.swift */; };
-		A12804762DACE59000813F8D /* JY_Enum_BaseController_Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128046C2DACE59000813F8D /* JY_Enum_BaseController_Status.swift */; };
-		A12804772DACE59000813F8D /* JY_Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128046D2DACE59000813F8D /* JY_Status_View.swift */; };
-		A12804782DACE59000813F8D /* JY_Controller_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128046F2DACE59000813F8D /* JY_Controller_Manager.swift */; };
-		A12804792DACE59000813F8D /* BaseController 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A12804712DACE59000813F8D /* BaseController 说明.md */; };
-		A128047B2DACE68300813F8D /* JY_Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128047A2DACE68300813F8D /* JY_Extension_String.swift */; };
-		A12804822DACE72F00813F8D /* JY_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128047C2DACE72F00813F8D /* JY_Button.swift */; };
-		A12804832DACE72F00813F8D /* JY_ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128047D2DACE72F00813F8D /* JY_ImageView.swift */; };
-		A12804842DACE72F00813F8D /* JY_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128047E2DACE72F00813F8D /* JY_Label.swift */; };
-		A12804852DACE72F00813F8D /* JY_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128047F2DACE72F00813F8D /* JY_ScrollView.swift */; };
-		A12804862DACE72F00813F8D /* JY_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12804802DACE72F00813F8D /* JY_View.swift */; };
+		A1593C232DAE2EB400C04D37 /* JY_Base_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BED2DAE2EB400C04D37 /* JY_Base_Controller.swift */; };
+		A1593C242DAE2EB400C04D37 /* JY_Base_Loading_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BEE2DAE2EB400C04D37 /* JY_Base_Loading_View.swift */; };
+		A1593C252DAE2EB400C04D37 /* JY_Controller_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BEF2DAE2EB400C04D37 /* JY_Controller_Config.swift */; };
+		A1593C262DAE2EB400C04D37 /* JY_Enum_BaseController_Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF02DAE2EB400C04D37 /* JY_Enum_BaseController_Status.swift */; };
+		A1593C272DAE2EB400C04D37 /* JY_Status_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF12DAE2EB400C04D37 /* JY_Status_View.swift */; };
+		A1593C282DAE2EB400C04D37 /* JY_Controller_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF32DAE2EB400C04D37 /* JY_Controller_Manager.swift */; };
+		A1593C292DAE2EB400C04D37 /* BaseController 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A1593BF52DAE2EB400C04D37 /* BaseController 说明.md */; };
+		A1593C2A2DAE2EB400C04D37 /* JY_Date_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF72DAE2EB400C04D37 /* JY_Date_Tool.swift */; };
+		A1593C2B2DAE2EB400C04D37 /* JY_Date_Tool+dateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF82DAE2EB400C04D37 /* JY_Date_Tool+dateFormat.swift */; };
+		A1593C2C2DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BF92DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift */; };
+		A1593C2D2DAE2EB400C04D37 /* Extension 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A1593BFB2DAE2EB400C04D37 /* Extension 说明.md */; };
+		A1593C2E2DAE2EB400C04D37 /* JY_Extension_CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BFC2DAE2EB400C04D37 /* JY_Extension_CommonCrypto.swift */; };
+		A1593C2F2DAE2EB400C04D37 /* JY_Extension_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BFD2DAE2EB400C04D37 /* JY_Extension_Int.swift */; };
+		A1593C302DAE2EB400C04D37 /* JY_Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BFE2DAE2EB400C04D37 /* JY_Extension_String.swift */; };
+		A1593C312DAE2EB400C04D37 /* JY_Extension_UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593BFF2DAE2EB400C04D37 /* JY_Extension_UIApplication.swift */; };
+		A1593C322DAE2EB400C04D37 /* JY_Extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C002DAE2EB400C04D37 /* JY_Extension_UIColor.swift */; };
+		A1593C332DAE2EB400C04D37 /* JY_Extension_UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C012DAE2EB400C04D37 /* JY_Extension_UIFont.swift */; };
+		A1593C342DAE2EB400C04D37 /* JY_Extension_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C022DAE2EB400C04D37 /* JY_Extension_UIImage.swift */; };
+		A1593C352DAE2EB400C04D37 /* JY_Extension_UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C032DAE2EB400C04D37 /* JY_Extension_UIWindow.swift */; };
+		A1593C362DAE2EB400C04D37 /* JY_File_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C052DAE2EB400C04D37 /* JY_File_Manager.swift */; };
+		A1593C372DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C062DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift */; };
+		A1593C382DAE2EB400C04D37 /* JY_Json_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C082DAE2EB400C04D37 /* JY_Json_Tool.swift */; };
+		A1593C392DAE2EB400C04D37 /* JY_Enum_Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C0A2DAE2EB400C04D37 /* JY_Enum_Language.swift */; };
+		A1593C3A2DAE2EB400C04D37 /* JY_Localization_Tool_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C0B2DAE2EB400C04D37 /* JY_Localization_Tool_Extension.swift */; };
+		A1593C3B2DAE2EB400C04D37 /* JY_Localization_Tool.md in Resources */ = {isa = PBXBuildFile; fileRef = A1593C0C2DAE2EB400C04D37 /* JY_Localization_Tool.md */; };
+		A1593C3C2DAE2EB400C04D37 /* JY_Localization_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C0D2DAE2EB400C04D37 /* JY_Localization_Tool.swift */; };
+		A1593C3D2DAE2EB400C04D37 /* JY_Sandbox_Tool_Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C0F2DAE2EB400C04D37 /* JY_Sandbox_Tool_Cache.swift */; };
+		A1593C3E2DAE2EB400C04D37 /* JY_Sandbox_Tool_Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C102DAE2EB400C04D37 /* JY_Sandbox_Tool_Path.swift */; };
+		A1593C3F2DAE2EB400C04D37 /* JY_Sandbox_Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C112DAE2EB400C04D37 /* JY_Sandbox_Tool.swift */; };
+		A1593C402DAE2EB400C04D37 /* JY_Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C132DAE2EB400C04D37 /* JY_Device.swift */; };
+		A1593C412DAE2EB400C04D37 /* JY_Extension_UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C142DAE2EB400C04D37 /* JY_Extension_UIDevice.swift */; };
+		A1593C422DAE2EB400C04D37 /* JY_Extension_UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C152DAE2EB400C04D37 /* JY_Extension_UIScreen.swift */; };
+		A1593C432DAE2EB400C04D37 /* Screen 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A1593C162DAE2EB400C04D37 /* Screen 说明.md */; };
+		A1593C442DAE2EB400C04D37 /* JY_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C182DAE2EB400C04D37 /* JY_Button.swift */; };
+		A1593C452DAE2EB400C04D37 /* JY_ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C192DAE2EB400C04D37 /* JY_ImageView.swift */; };
+		A1593C462DAE2EB400C04D37 /* JY_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C1A2DAE2EB400C04D37 /* JY_Label.swift */; };
+		A1593C472DAE2EB400C04D37 /* JY_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C1B2DAE2EB400C04D37 /* JY_ScrollView.swift */; };
+		A1593C482DAE2EB400C04D37 /* JY_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C1C2DAE2EB400C04D37 /* JY_View.swift */; };
+		A1593C492DAE2EB400C04D37 /* JY_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C1E2DAE2EB400C04D37 /* JY_TextField.swift */; };
+		A1593C4A2DAE2EB400C04D37 /* TextField 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = A1593C1F2DAE2EB400C04D37 /* TextField 说明.md */; };
 		A1779F692DACAA2E006BCC9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1779F682DACAA2E006BCC9E /* AppDelegate.swift */; };
 		A1779F6B2DACAA2E006BCC9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1779F6A2DACAA2E006BCC9E /* SceneDelegate.swift */; };
 		A1779F6D2DACAA2E006BCC9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1779F6C2DACAA2E006BCC9E /* ViewController.swift */; };
@@ -56,46 +56,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A12804292DACD76200813F8D /* JY_Date_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Date_Tool.swift; sourceTree = "<group>"; };
-		A128042A2DACD76200813F8D /* JY_Date_Tool+dateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_Date_Tool+dateFormat.swift"; sourceTree = "<group>"; };
-		A128042B2DACD76200813F8D /* JY_Date_Tool+Distance_Now.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_Date_Tool+Distance_Now.swift"; sourceTree = "<group>"; };
-		A12804322DACD77700813F8D /* JY_Json_Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_Json_Tool.swift; sourceTree = "<group>"; };
-		A12804352DACDB5300813F8D /* JY_File_Manager+Image_Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JY_File_Manager+Image_Save.swift"; sourceTree = "<group>"; };
-		A12804372DACDB6100813F8D /* JY_File_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_File_Manager.swift; sourceTree = "<group>"; };
-		A128043B2DACE18D00813F8D /* JY_TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_TextField.swift; sourceTree = "<group>"; };
-		A128043E2DACE21000813F8D /* JY_Extension_UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIScreen.swift; sourceTree = "<group>"; };
-		A128043F2DACE21000813F8D /* JY_Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Device.swift; sourceTree = "<group>"; };
-		A12804402DACE21000813F8D /* Screen 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Screen 说明.md"; sourceTree = "<group>"; };
-		A12804412DACE21000813F8D /* JY_Extension_UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIDevice.swift; sourceTree = "<group>"; };
-		A12804462DACE21700813F8D /* TextField 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "TextField 说明.md"; sourceTree = "<group>"; };
-		A12804492DACE55C00813F8D /* JY_Sandbox_Tool_Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool_Cache.swift; sourceTree = "<group>"; };
-		A128044A2DACE55C00813F8D /* JY_Sandbox_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool.swift; sourceTree = "<group>"; };
-		A128044B2DACE55C00813F8D /* JY_Sandbox_Tool_Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool_Path.swift; sourceTree = "<group>"; };
-		A128044F2DACE57200813F8D /* JY_Enum_Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Enum_Language.swift; sourceTree = "<group>"; };
-		A12804502DACE57200813F8D /* JY_Localization_Tool_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Localization_Tool_Extension.swift; sourceTree = "<group>"; };
-		A12804512DACE57200813F8D /* JY_Localization_Tool.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = JY_Localization_Tool.md; sourceTree = "<group>"; };
-		A12804522DACE57200813F8D /* JY_Localization_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Localization_Tool.swift; sourceTree = "<group>"; };
-		A12804582DACE58A00813F8D /* Extension 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Extension 说明.md"; sourceTree = "<group>"; };
-		A12804592DACE58A00813F8D /* JY_Extension_CommonCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_CommonCrypto.swift; sourceTree = "<group>"; };
-		A128045A2DACE58A00813F8D /* JY_Extension_Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_Int.swift; sourceTree = "<group>"; };
-		A128045B2DACE58A00813F8D /* JY_Extension_UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIApplication.swift; sourceTree = "<group>"; };
-		A128045C2DACE58A00813F8D /* JY_Extension_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIColor.swift; sourceTree = "<group>"; };
-		A128045D2DACE58A00813F8D /* JY_Extension_UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIFont.swift; sourceTree = "<group>"; };
-		A128045E2DACE58A00813F8D /* JY_Extension_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIImage.swift; sourceTree = "<group>"; };
-		A128045F2DACE58A00813F8D /* JY_Extension_UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIWindow.swift; sourceTree = "<group>"; };
-		A12804692DACE59000813F8D /* JY_Base_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Base_Controller.swift; sourceTree = "<group>"; };
-		A128046A2DACE59000813F8D /* JY_Base_Loading_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Base_Loading_View.swift; sourceTree = "<group>"; };
-		A128046B2DACE59000813F8D /* JY_Controller_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Controller_Config.swift; sourceTree = "<group>"; };
-		A128046C2DACE59000813F8D /* JY_Enum_BaseController_Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Enum_BaseController_Status.swift; sourceTree = "<group>"; };
-		A128046D2DACE59000813F8D /* JY_Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Status_View.swift; sourceTree = "<group>"; };
-		A128046F2DACE59000813F8D /* JY_Controller_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Controller_Manager.swift; sourceTree = "<group>"; };
-		A12804712DACE59000813F8D /* BaseController 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "BaseController 说明.md"; sourceTree = "<group>"; };
-		A128047A2DACE68300813F8D /* JY_Extension_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_Extension_String.swift; sourceTree = "<group>"; };
-		A128047C2DACE72F00813F8D /* JY_Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Button.swift; sourceTree = "<group>"; };
-		A128047D2DACE72F00813F8D /* JY_ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_ImageView.swift; sourceTree = "<group>"; };
-		A128047E2DACE72F00813F8D /* JY_Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Label.swift; sourceTree = "<group>"; };
-		A128047F2DACE72F00813F8D /* JY_ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_ScrollView.swift; sourceTree = "<group>"; };
-		A12804802DACE72F00813F8D /* JY_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_View.swift; sourceTree = "<group>"; };
+		A1593BED2DAE2EB400C04D37 /* JY_Base_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Base_Controller.swift; sourceTree = "<group>"; };
+		A1593BEE2DAE2EB400C04D37 /* JY_Base_Loading_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Base_Loading_View.swift; sourceTree = "<group>"; };
+		A1593BEF2DAE2EB400C04D37 /* JY_Controller_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Controller_Config.swift; sourceTree = "<group>"; };
+		A1593BF02DAE2EB400C04D37 /* JY_Enum_BaseController_Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Enum_BaseController_Status.swift; sourceTree = "<group>"; };
+		A1593BF12DAE2EB400C04D37 /* JY_Status_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Status_View.swift; sourceTree = "<group>"; };
+		A1593BF32DAE2EB400C04D37 /* JY_Controller_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Controller_Manager.swift; sourceTree = "<group>"; };
+		A1593BF52DAE2EB400C04D37 /* BaseController 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "BaseController 说明.md"; sourceTree = "<group>"; };
+		A1593BF72DAE2EB400C04D37 /* JY_Date_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Date_Tool.swift; sourceTree = "<group>"; };
+		A1593BF82DAE2EB400C04D37 /* JY_Date_Tool+dateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_Date_Tool+dateFormat.swift"; sourceTree = "<group>"; };
+		A1593BF92DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_Date_Tool+Distance_Now.swift"; sourceTree = "<group>"; };
+		A1593BFB2DAE2EB400C04D37 /* Extension 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Extension 说明.md"; sourceTree = "<group>"; };
+		A1593BFC2DAE2EB400C04D37 /* JY_Extension_CommonCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_CommonCrypto.swift; sourceTree = "<group>"; };
+		A1593BFD2DAE2EB400C04D37 /* JY_Extension_Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_Int.swift; sourceTree = "<group>"; };
+		A1593BFE2DAE2EB400C04D37 /* JY_Extension_String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_String.swift; sourceTree = "<group>"; };
+		A1593BFF2DAE2EB400C04D37 /* JY_Extension_UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIApplication.swift; sourceTree = "<group>"; };
+		A1593C002DAE2EB400C04D37 /* JY_Extension_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIColor.swift; sourceTree = "<group>"; };
+		A1593C012DAE2EB400C04D37 /* JY_Extension_UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIFont.swift; sourceTree = "<group>"; };
+		A1593C022DAE2EB400C04D37 /* JY_Extension_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIImage.swift; sourceTree = "<group>"; };
+		A1593C032DAE2EB400C04D37 /* JY_Extension_UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIWindow.swift; sourceTree = "<group>"; };
+		A1593C052DAE2EB400C04D37 /* JY_File_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_File_Manager.swift; sourceTree = "<group>"; };
+		A1593C062DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_File_Manager+Image_Save.swift"; sourceTree = "<group>"; };
+		A1593C082DAE2EB400C04D37 /* JY_Json_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Json_Tool.swift; sourceTree = "<group>"; };
+		A1593C0A2DAE2EB400C04D37 /* JY_Enum_Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Enum_Language.swift; sourceTree = "<group>"; };
+		A1593C0B2DAE2EB400C04D37 /* JY_Localization_Tool_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Localization_Tool_Extension.swift; sourceTree = "<group>"; };
+		A1593C0C2DAE2EB400C04D37 /* JY_Localization_Tool.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = JY_Localization_Tool.md; sourceTree = "<group>"; };
+		A1593C0D2DAE2EB400C04D37 /* JY_Localization_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Localization_Tool.swift; sourceTree = "<group>"; };
+		A1593C0F2DAE2EB400C04D37 /* JY_Sandbox_Tool_Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool_Cache.swift; sourceTree = "<group>"; };
+		A1593C102DAE2EB400C04D37 /* JY_Sandbox_Tool_Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool_Path.swift; sourceTree = "<group>"; };
+		A1593C112DAE2EB400C04D37 /* JY_Sandbox_Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Sandbox_Tool.swift; sourceTree = "<group>"; };
+		A1593C132DAE2EB400C04D37 /* JY_Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Device.swift; sourceTree = "<group>"; };
+		A1593C142DAE2EB400C04D37 /* JY_Extension_UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIDevice.swift; sourceTree = "<group>"; };
+		A1593C152DAE2EB400C04D37 /* JY_Extension_UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Extension_UIScreen.swift; sourceTree = "<group>"; };
+		A1593C162DAE2EB400C04D37 /* Screen 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Screen 说明.md"; sourceTree = "<group>"; };
+		A1593C182DAE2EB400C04D37 /* JY_Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Button.swift; sourceTree = "<group>"; };
+		A1593C192DAE2EB400C04D37 /* JY_ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_ImageView.swift; sourceTree = "<group>"; };
+		A1593C1A2DAE2EB400C04D37 /* JY_Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Label.swift; sourceTree = "<group>"; };
+		A1593C1B2DAE2EB400C04D37 /* JY_ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_ScrollView.swift; sourceTree = "<group>"; };
+		A1593C1C2DAE2EB400C04D37 /* JY_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_View.swift; sourceTree = "<group>"; };
+		A1593C1E2DAE2EB400C04D37 /* JY_TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_TextField.swift; sourceTree = "<group>"; };
+		A1593C1F2DAE2EB400C04D37 /* TextField 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "TextField 说明.md"; sourceTree = "<group>"; };
 		A1779F652DACAA2E006BCC9E /* JYYQToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYYQToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1779F682DACAA2E006BCC9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1779F6A2DACAA2E006BCC9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,155 +117,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A128042C2DACD76200813F8D /* Date */ = {
+		A1593BF22DAE2EB400C04D37 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A12804292DACD76200813F8D /* JY_Date_Tool.swift */,
-				A128042A2DACD76200813F8D /* JY_Date_Tool+dateFormat.swift */,
-				A128042B2DACD76200813F8D /* JY_Date_Tool+Distance_Now.swift */,
-			);
-			path = Date;
-			sourceTree = "<group>";
-		};
-		A128042D2DACD76200813F8D /* ToolBox */ = {
-			isa = PBXGroup;
-			children = (
-				A12804722DACE59000813F8D /* Controller */,
-				A128042C2DACD76200813F8D /* Date */,
-				A12804602DACE58A00813F8D /* Extension */,
-				A12804342DACDAEA00813F8D /* FileManager */,
-				A12804312DACD76800813F8D /* JsonTool */,
-				A12804532DACE57200813F8D /* Localization */,
-				A12804482DACE54D00813F8D /* Sandbox */,
-				A128043D2DACE20400813F8D /* Screen */,
-				A12804392DACE18100813F8D /* View */,
-			);
-			path = ToolBox;
-			sourceTree = "<group>";
-		};
-		A12804312DACD76800813F8D /* JsonTool */ = {
-			isa = PBXGroup;
-			children = (
-				A12804322DACD77700813F8D /* JY_Json_Tool.swift */,
-			);
-			path = JsonTool;
-			sourceTree = "<group>";
-		};
-		A12804342DACDAEA00813F8D /* FileManager */ = {
-			isa = PBXGroup;
-			children = (
-				A12804372DACDB6100813F8D /* JY_File_Manager.swift */,
-				A12804352DACDB5300813F8D /* JY_File_Manager+Image_Save.swift */,
-			);
-			path = FileManager;
-			sourceTree = "<group>";
-		};
-		A12804392DACE18100813F8D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A12804812DACE72F00813F8D /* Parent */,
-				A128043A2DACE18600813F8D /* TextFiled */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A128043A2DACE18600813F8D /* TextFiled */ = {
-			isa = PBXGroup;
-			children = (
-				A12804462DACE21700813F8D /* TextField 说明.md */,
-				A128043B2DACE18D00813F8D /* JY_TextField.swift */,
-			);
-			path = TextFiled;
-			sourceTree = "<group>";
-		};
-		A128043D2DACE20400813F8D /* Screen */ = {
-			isa = PBXGroup;
-			children = (
-				A128043F2DACE21000813F8D /* JY_Device.swift */,
-				A12804412DACE21000813F8D /* JY_Extension_UIDevice.swift */,
-				A128043E2DACE21000813F8D /* JY_Extension_UIScreen.swift */,
-				A12804402DACE21000813F8D /* Screen 说明.md */,
-			);
-			path = Screen;
-			sourceTree = "<group>";
-		};
-		A12804482DACE54D00813F8D /* Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				A12804492DACE55C00813F8D /* JY_Sandbox_Tool_Cache.swift */,
-				A128044B2DACE55C00813F8D /* JY_Sandbox_Tool_Path.swift */,
-				A128044A2DACE55C00813F8D /* JY_Sandbox_Tool.swift */,
-			);
-			path = Sandbox;
-			sourceTree = "<group>";
-		};
-		A12804532DACE57200813F8D /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				A128044F2DACE57200813F8D /* JY_Enum_Language.swift */,
-				A12804502DACE57200813F8D /* JY_Localization_Tool_Extension.swift */,
-				A12804512DACE57200813F8D /* JY_Localization_Tool.md */,
-				A12804522DACE57200813F8D /* JY_Localization_Tool.swift */,
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
-		A12804602DACE58A00813F8D /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				A12804582DACE58A00813F8D /* Extension 说明.md */,
-				A12804592DACE58A00813F8D /* JY_Extension_CommonCrypto.swift */,
-				A128045A2DACE58A00813F8D /* JY_Extension_Int.swift */,
-				A128045B2DACE58A00813F8D /* JY_Extension_UIApplication.swift */,
-				A128045C2DACE58A00813F8D /* JY_Extension_UIColor.swift */,
-				A128045D2DACE58A00813F8D /* JY_Extension_UIFont.swift */,
-				A128045E2DACE58A00813F8D /* JY_Extension_UIImage.swift */,
-				A128045F2DACE58A00813F8D /* JY_Extension_UIWindow.swift */,
-				A128047A2DACE68300813F8D /* JY_Extension_String.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		A128046E2DACE59000813F8D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A12804692DACE59000813F8D /* JY_Base_Controller.swift */,
-				A128046A2DACE59000813F8D /* JY_Base_Loading_View.swift */,
-				A128046B2DACE59000813F8D /* JY_Controller_Config.swift */,
-				A128046C2DACE59000813F8D /* JY_Enum_BaseController_Status.swift */,
-				A128046D2DACE59000813F8D /* JY_Status_View.swift */,
+				A1593BED2DAE2EB400C04D37 /* JY_Base_Controller.swift */,
+				A1593BEE2DAE2EB400C04D37 /* JY_Base_Loading_View.swift */,
+				A1593BEF2DAE2EB400C04D37 /* JY_Controller_Config.swift */,
+				A1593BF02DAE2EB400C04D37 /* JY_Enum_BaseController_Status.swift */,
+				A1593BF12DAE2EB400C04D37 /* JY_Status_View.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A12804702DACE59000813F8D /* Manager */ = {
+		A1593BF42DAE2EB400C04D37 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				A128046F2DACE59000813F8D /* JY_Controller_Manager.swift */,
+				A1593BF32DAE2EB400C04D37 /* JY_Controller_Manager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		A12804722DACE59000813F8D /* Controller */ = {
+		A1593BF62DAE2EB400C04D37 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A128046E2DACE59000813F8D /* Controller */,
-				A12804702DACE59000813F8D /* Manager */,
-				A12804712DACE59000813F8D /* BaseController 说明.md */,
+				A1593BF22DAE2EB400C04D37 /* Controller */,
+				A1593BF42DAE2EB400C04D37 /* Manager */,
+				A1593BF52DAE2EB400C04D37 /* BaseController 说明.md */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A12804812DACE72F00813F8D /* Parent */ = {
+		A1593BFA2DAE2EB400C04D37 /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				A128047C2DACE72F00813F8D /* JY_Button.swift */,
-				A128047D2DACE72F00813F8D /* JY_ImageView.swift */,
-				A128047E2DACE72F00813F8D /* JY_Label.swift */,
-				A128047F2DACE72F00813F8D /* JY_ScrollView.swift */,
-				A12804802DACE72F00813F8D /* JY_View.swift */,
+				A1593BF72DAE2EB400C04D37 /* JY_Date_Tool.swift */,
+				A1593BF82DAE2EB400C04D37 /* JY_Date_Tool+dateFormat.swift */,
+				A1593BF92DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		A1593C042DAE2EB400C04D37 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1593BFB2DAE2EB400C04D37 /* Extension 说明.md */,
+				A1593BFC2DAE2EB400C04D37 /* JY_Extension_CommonCrypto.swift */,
+				A1593BFD2DAE2EB400C04D37 /* JY_Extension_Int.swift */,
+				A1593BFE2DAE2EB400C04D37 /* JY_Extension_String.swift */,
+				A1593BFF2DAE2EB400C04D37 /* JY_Extension_UIApplication.swift */,
+				A1593C002DAE2EB400C04D37 /* JY_Extension_UIColor.swift */,
+				A1593C012DAE2EB400C04D37 /* JY_Extension_UIFont.swift */,
+				A1593C022DAE2EB400C04D37 /* JY_Extension_UIImage.swift */,
+				A1593C032DAE2EB400C04D37 /* JY_Extension_UIWindow.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A1593C072DAE2EB400C04D37 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C052DAE2EB400C04D37 /* JY_File_Manager.swift */,
+				A1593C062DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		A1593C092DAE2EB400C04D37 /* JsonTool */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C082DAE2EB400C04D37 /* JY_Json_Tool.swift */,
+			);
+			path = JsonTool;
+			sourceTree = "<group>";
+		};
+		A1593C0E2DAE2EB400C04D37 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C0A2DAE2EB400C04D37 /* JY_Enum_Language.swift */,
+				A1593C0B2DAE2EB400C04D37 /* JY_Localization_Tool_Extension.swift */,
+				A1593C0C2DAE2EB400C04D37 /* JY_Localization_Tool.md */,
+				A1593C0D2DAE2EB400C04D37 /* JY_Localization_Tool.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		A1593C122DAE2EB400C04D37 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C0F2DAE2EB400C04D37 /* JY_Sandbox_Tool_Cache.swift */,
+				A1593C102DAE2EB400C04D37 /* JY_Sandbox_Tool_Path.swift */,
+				A1593C112DAE2EB400C04D37 /* JY_Sandbox_Tool.swift */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		A1593C172DAE2EB400C04D37 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C132DAE2EB400C04D37 /* JY_Device.swift */,
+				A1593C142DAE2EB400C04D37 /* JY_Extension_UIDevice.swift */,
+				A1593C152DAE2EB400C04D37 /* JY_Extension_UIScreen.swift */,
+				A1593C162DAE2EB400C04D37 /* Screen 说明.md */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A1593C1D2DAE2EB400C04D37 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C182DAE2EB400C04D37 /* JY_Button.swift */,
+				A1593C192DAE2EB400C04D37 /* JY_ImageView.swift */,
+				A1593C1A2DAE2EB400C04D37 /* JY_Label.swift */,
+				A1593C1B2DAE2EB400C04D37 /* JY_ScrollView.swift */,
+				A1593C1C2DAE2EB400C04D37 /* JY_View.swift */,
 			);
 			path = Parent;
+			sourceTree = "<group>";
+		};
+		A1593C202DAE2EB400C04D37 /* TextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C1E2DAE2EB400C04D37 /* JY_TextField.swift */,
+				A1593C1F2DAE2EB400C04D37 /* TextField 说明.md */,
+			);
+			path = TextFiled;
+			sourceTree = "<group>";
+		};
+		A1593C212DAE2EB400C04D37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1593C1D2DAE2EB400C04D37 /* Parent */,
+				A1593C202DAE2EB400C04D37 /* TextFiled */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1593C222DAE2EB400C04D37 /* ToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				A1593BF62DAE2EB400C04D37 /* Controller */,
+				A1593BFA2DAE2EB400C04D37 /* Date */,
+				A1593C042DAE2EB400C04D37 /* Extension */,
+				A1593C072DAE2EB400C04D37 /* FileManager */,
+				A1593C092DAE2EB400C04D37 /* JsonTool */,
+				A1593C0E2DAE2EB400C04D37 /* Localization */,
+				A1593C122DAE2EB400C04D37 /* Sandbox */,
+				A1593C172DAE2EB400C04D37 /* Screen */,
+				A1593C212DAE2EB400C04D37 /* View */,
+			);
+			name = ToolBox;
+			path = ../../ToolBox;
 			sourceTree = "<group>";
 		};
 		A1779F5C2DACAA2E006BCC9E = {
@@ -287,7 +288,7 @@
 		A1779F672DACAA2E006BCC9E /* JYYQToolBox */ = {
 			isa = PBXGroup;
 			children = (
-				A128042D2DACD76200813F8D /* ToolBox */,
+				A1593C222DAE2EB400C04D37 /* ToolBox */,
 				A1779F682DACAA2E006BCC9E /* AppDelegate.swift */,
 				A1779F6A2DACAA2E006BCC9E /* SceneDelegate.swift */,
 				A1779F6C2DACAA2E006BCC9E /* ViewController.swift */,
@@ -357,12 +358,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12804562DACE57200813F8D /* JY_Localization_Tool.md in Resources */,
-				A12804612DACE58A00813F8D /* Extension 说明.md in Resources */,
-				A12804472DACE21700813F8D /* TextField 说明.md in Resources */,
+				A1593C3B2DAE2EB400C04D37 /* JY_Localization_Tool.md in Resources */,
+				A1593C4A2DAE2EB400C04D37 /* TextField 说明.md in Resources */,
+				A1593C292DAE2EB400C04D37 /* BaseController 说明.md in Resources */,
+				A1593C432DAE2EB400C04D37 /* Screen 说明.md in Resources */,
 				A1779F722DACAA2F006BCC9E /* Assets.xcassets in Resources */,
-				A12804792DACE59000813F8D /* BaseController 说明.md in Resources */,
-				A12804442DACE21000813F8D /* Screen 说明.md in Resources */,
+				A1593C2D2DAE2EB400C04D37 /* Extension 说明.md in Resources */,
 				A1779F752DACAA2F006BCC9E /* Base in Resources */,
 				A1779F702DACAA2E006BCC9E /* Base in Resources */,
 			);
@@ -375,44 +376,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12804652DACE58A00813F8D /* JY_Extension_UIColor.swift in Sources */,
-				A12804302DACD76200813F8D /* JY_Date_Tool+Distance_Now.swift in Sources */,
-				A12804762DACE59000813F8D /* JY_Enum_BaseController_Status.swift in Sources */,
-				A12804862DACE72F00813F8D /* JY_View.swift in Sources */,
-				A12804842DACE72F00813F8D /* JY_Label.swift in Sources */,
-				A12804552DACE57200813F8D /* JY_Localization_Tool_Extension.swift in Sources */,
-				A12804732DACE59000813F8D /* JY_Base_Controller.swift in Sources */,
-				A12804832DACE72F00813F8D /* JY_ImageView.swift in Sources */,
-				A128044C2DACE55C00813F8D /* JY_Sandbox_Tool_Cache.swift in Sources */,
+				A1593C2E2DAE2EB400C04D37 /* JY_Extension_CommonCrypto.swift in Sources */,
+				A1593C2C2DAE2EB400C04D37 /* JY_Date_Tool+Distance_Now.swift in Sources */,
+				A1593C2A2DAE2EB400C04D37 /* JY_Date_Tool.swift in Sources */,
+				A1593C392DAE2EB400C04D37 /* JY_Enum_Language.swift in Sources */,
+				A1593C402DAE2EB400C04D37 /* JY_Device.swift in Sources */,
+				A1593C342DAE2EB400C04D37 /* JY_Extension_UIImage.swift in Sources */,
+				A1593C372DAE2EB400C04D37 /* JY_File_Manager+Image_Save.swift in Sources */,
+				A1593C252DAE2EB400C04D37 /* JY_Controller_Config.swift in Sources */,
+				A1593C302DAE2EB400C04D37 /* JY_Extension_String.swift in Sources */,
+				A1593C332DAE2EB400C04D37 /* JY_Extension_UIFont.swift in Sources */,
+				A1593C282DAE2EB400C04D37 /* JY_Controller_Manager.swift in Sources */,
+				A1593C362DAE2EB400C04D37 /* JY_File_Manager.swift in Sources */,
+				A1593C3E2DAE2EB400C04D37 /* JY_Sandbox_Tool_Path.swift in Sources */,
+				A1593C312DAE2EB400C04D37 /* JY_Extension_UIApplication.swift in Sources */,
+				A1593C242DAE2EB400C04D37 /* JY_Base_Loading_View.swift in Sources */,
+				A1593C3C2DAE2EB400C04D37 /* JY_Localization_Tool.swift in Sources */,
 				A1779F6D2DACAA2E006BCC9E /* ViewController.swift in Sources */,
-				A128047B2DACE68300813F8D /* JY_Extension_String.swift in Sources */,
-				A128043C2DACE18D00813F8D /* JY_TextField.swift in Sources */,
-				A12804382DACDB6100813F8D /* JY_File_Manager.swift in Sources */,
-				A12804622DACE58A00813F8D /* JY_Extension_CommonCrypto.swift in Sources */,
-				A12804432DACE21000813F8D /* JY_Device.swift in Sources */,
-				A12804852DACE72F00813F8D /* JY_ScrollView.swift in Sources */,
-				A128042F2DACD76200813F8D /* JY_Date_Tool+dateFormat.swift in Sources */,
-				A12804772DACE59000813F8D /* JY_Status_View.swift in Sources */,
-				A12804332DACD77700813F8D /* JY_Json_Tool.swift in Sources */,
-				A12804672DACE58A00813F8D /* JY_Extension_UIImage.swift in Sources */,
-				A12804822DACE72F00813F8D /* JY_Button.swift in Sources */,
-				A12804742DACE59000813F8D /* JY_Base_Loading_View.swift in Sources */,
-				A12804572DACE57200813F8D /* JY_Localization_Tool.swift in Sources */,
-				A128044D2DACE55C00813F8D /* JY_Sandbox_Tool.swift in Sources */,
-				A12804422DACE21000813F8D /* JY_Extension_UIScreen.swift in Sources */,
+				A1593C3F2DAE2EB400C04D37 /* JY_Sandbox_Tool.swift in Sources */,
+				A1593C422DAE2EB400C04D37 /* JY_Extension_UIScreen.swift in Sources */,
+				A1593C2B2DAE2EB400C04D37 /* JY_Date_Tool+dateFormat.swift in Sources */,
+				A1593C262DAE2EB400C04D37 /* JY_Enum_BaseController_Status.swift in Sources */,
+				A1593C322DAE2EB400C04D37 /* JY_Extension_UIColor.swift in Sources */,
+				A1593C462DAE2EB400C04D37 /* JY_Label.swift in Sources */,
+				A1593C382DAE2EB400C04D37 /* JY_Json_Tool.swift in Sources */,
+				A1593C3D2DAE2EB400C04D37 /* JY_Sandbox_Tool_Cache.swift in Sources */,
+				A1593C412DAE2EB400C04D37 /* JY_Extension_UIDevice.swift in Sources */,
+				A1593C452DAE2EB400C04D37 /* JY_ImageView.swift in Sources */,
+				A1593C3A2DAE2EB400C04D37 /* JY_Localization_Tool_Extension.swift in Sources */,
+				A1593C352DAE2EB400C04D37 /* JY_Extension_UIWindow.swift in Sources */,
+				A1593C482DAE2EB400C04D37 /* JY_View.swift in Sources */,
 				A1779F692DACAA2E006BCC9E /* AppDelegate.swift in Sources */,
-				A128042E2DACD76200813F8D /* JY_Date_Tool.swift in Sources */,
-				A12804452DACE21000813F8D /* JY_Extension_UIDevice.swift in Sources */,
-				A12804782DACE59000813F8D /* JY_Controller_Manager.swift in Sources */,
-				A12804682DACE58A00813F8D /* JY_Extension_UIWindow.swift in Sources */,
-				A12804642DACE58A00813F8D /* JY_Extension_UIApplication.swift in Sources */,
-				A12804362DACDB5300813F8D /* JY_File_Manager+Image_Save.swift in Sources */,
-				A12804632DACE58A00813F8D /* JY_Extension_Int.swift in Sources */,
+				A1593C472DAE2EB400C04D37 /* JY_ScrollView.swift in Sources */,
+				A1593C2F2DAE2EB400C04D37 /* JY_Extension_Int.swift in Sources */,
+				A1593C442DAE2EB400C04D37 /* JY_Button.swift in Sources */,
+				A1593C492DAE2EB400C04D37 /* JY_TextField.swift in Sources */,
 				A1779F6B2DACAA2E006BCC9E /* SceneDelegate.swift in Sources */,
-				A128044E2DACE55C00813F8D /* JY_Sandbox_Tool_Path.swift in Sources */,
-				A12804542DACE57200813F8D /* JY_Enum_Language.swift in Sources */,
-				A12804752DACE59000813F8D /* JY_Controller_Config.swift in Sources */,
-				A12804662DACE58A00813F8D /* JY_Extension_UIFont.swift in Sources */,
+				A1593C232DAE2EB400C04D37 /* JY_Base_Controller.swift in Sources */,
+				A1593C272DAE2EB400C04D37 /* JY_Status_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
