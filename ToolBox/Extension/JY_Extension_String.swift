@@ -46,6 +46,18 @@ extension String {
 
 //  MARK: 富文本
 extension NSAttributedString {
+    
+    /** 富文本 修改行间距 **/
+    public func jy_font(font: UIFont) -> NSAttributedString {
+        
+        let attributedString = NSMutableAttributedString(attributedString: self)
+                
+        attributedString.addAttribute(.font, value: font, range: NSRange(location: 0, length: self.length))
+        
+        return attributedString
+    }
+    
+    
     /** 富文本 修改颜色 **/
     public func jy_add(textColor: UIColor) -> NSAttributedString {
         
