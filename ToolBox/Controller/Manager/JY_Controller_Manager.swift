@@ -21,7 +21,7 @@ public class JY_Controller_Manager {
     
     private init() {}
     
-    open func jy_initialize_manager() {
+    open func yq_initialize_manager() {
         if yq_is_initialize == true {
             return
         }

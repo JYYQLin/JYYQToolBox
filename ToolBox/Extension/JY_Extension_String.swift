@@ -14,7 +14,7 @@ extension String {
      富文本
         特定文字高亮
      **/
-    public func jy_highLight(normalColor: UIColor, hightLightText: String, hightLightColor: UIColor) -> NSAttributedString {
+    public func yq_highLight(normalColor: UIColor, hightLightText: String, hightLightColor: UIColor) -> NSAttributedString {
         
         let attributedString = NSMutableAttributedString(string: self)
         
@@ -30,7 +30,7 @@ extension String {
     }
     
     
-    public func jy_lineSpacing(lineSpacing: CGFloat) -> NSAttributedString {
+    public func yq_lineSpacing(lineSpacing: CGFloat) -> NSAttributedString {
         
             let attributedString = NSMutableAttributedString(string: self)
         
@@ -48,7 +48,7 @@ extension String {
 extension NSAttributedString {
     
     /** 富文本 修改行间距 **/
-    public func jy_font(font: UIFont) -> NSAttributedString {
+    public func yq_font(font: UIFont) -> NSAttributedString {
         
         let attributedString = NSMutableAttributedString(attributedString: self)
                 
@@ -59,7 +59,7 @@ extension NSAttributedString {
     
     
     /** 富文本 修改颜色 **/
-    public func jy_add(textColor: UIColor) -> NSAttributedString {
+    public func yq_add(textColor: UIColor) -> NSAttributedString {
         
         let attributedString = NSMutableAttributedString(attributedString: self)
         
@@ -69,7 +69,7 @@ extension NSAttributedString {
     }
     
     /** 富文本 修改行间距 **/
-    public func jy_lineSpacing(lineSpacing: CGFloat) -> NSAttributedString {
+    public func yq_lineSpacing(lineSpacing: CGFloat) -> NSAttributedString {
         
         let attributedString = NSMutableAttributedString(attributedString: self)
         
@@ -86,7 +86,7 @@ extension NSAttributedString {
 //  MARK: 截取字符串
 extension String {
     /** 截取字符串 */
-    public func jy_truncate_string(toLength length: Int) -> String {
+    public func yq_truncate_string(toLength length: Int) -> String {
         if length >= self.count {
             return self
         }
@@ -101,7 +101,7 @@ extension String {
      start表示从哪个字符开始
      length表示长度
      */
-    public func jy_mask_characters(start: Int, length: Int) -> String {
+    public func yq_mask_characters(start: Int, length: Int) -> String {
         if start < 0 || length < 0 || start >= self.count {
             return self
         }
